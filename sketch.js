@@ -80,7 +80,7 @@ function draw(){
 // }
 }
 function cameraRig(){
-  //perspective(1.11701);
+  perspective(1.11701);
   camera(cameraX,cameraY,cameraZ,centerX,centerY,centerZ,upX,upY,upZ);
   pointLight(255,255,255,cameraX,cameraY,cameraZ);
 //up while maintaining current forward movement
